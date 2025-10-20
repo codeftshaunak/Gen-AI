@@ -1,0 +1,90 @@
+# ---------------------------
+# 🔒 Environment files
+# ---------------------------
+.env
+.env.*
+!.env.example
+
+# ---------------------------
+# 🧠 Python cache & build
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ---------------------------
+# 📓 Jupyter & notebooks
+# ---------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---------------------------
+# 🧰 Virtual environments
+# ---------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------------------------
+# 📦 Package managers
+# ---------------------------
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
+
+# ---------------------------
+# 🧪 Data & experiments
+# ---------------------------
+*.csv
+*.tsv
+*.jsonl
+*.log
+*.ckpt
+*.pt
+*.h5
+*.pkl
+*.joblib
+wandb/
+runs/
+checkpoints/
+outputs/
+logs/
+experiments/
+
+# ---------------------------
+# 🧩 IDE / Editors
+# ---------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# ---------------------------
+# 🐳 Docker / Infra
+# ---------------------------
+*.pid
+*.db
+*.sqlite3
+*.sock
+*.tar
+*.log
+docker-compose.override.yml
+
+# ---------------------------
+# 🧬 HuggingFace / AI cache
+# ---------------------------
+~/.cache/
+~/.huggingface/
+.cache/
+.huggingface/
+transformers_cache/
+datasets/
+hf_cache/
